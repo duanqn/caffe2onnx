@@ -31,7 +31,7 @@ setuptools.setup(
     url=GIT,
     install_requires=[
         'protobuf',
-        'onnx==1.6.0'
+        'onnx>=1.6.0'
     ],
     classifiers=[
         'Topic :: Software Development :: Libraries',
